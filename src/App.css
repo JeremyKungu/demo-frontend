@@ -1,0 +1,63 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  
+ 
+}
+
+
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: gainsboro;
+  
+}
+
+
+nav {
+  background-color: gainsboro;
+  overflow: hidden;
+  width: 1000px;
+  margin: auto;
+}
+
+nav a {
+  float: left;
+      color: black;
+      text-align: center;
+      padding: 30px 50px;
+      text-decoration: none;
+      font-size: 20px;
+      
+}
+
+nav a:hover,
+nav a:active {
+  color: tomato;
+  border-bottom: 2px solid tomato;
+}
+
+.header{
+  min-height:  99vh;
+  width:  100%;
+  
+  background-image: url("https://static.vecteezy.com/system/resources/previews/003/492/015/large_2x/portrait-of-happy-young-woman-holding-laptop-computer-over-white-background-free-photo.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+/*style the text*/
+.text{
+  width:  100%;
+  color: black;
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  font-size: xx-large;
+
+
+}
